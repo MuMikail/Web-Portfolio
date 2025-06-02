@@ -24,37 +24,66 @@ const Contact = () => {
 		setForm({ ...form, [name]: value });
 	};
 
-	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+	const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
+		
+		// Validasi form
+		if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
+			alert("Please fill in all fields");
+			return;
+		}
+
 		setLoading(true);
-		emailjs
-			.send(
-				"service_91ssn8g",
-				"template_jjegxdr",
+		
+		try {
+			// Inisialisasi EmailJS dengan public key
+			emailjs.init("yYsYMOOZhNTPNOfnn");
+			
+			// Buat timestamp
+			const now = new Date();
+			const timestamp = now.toLocaleString('id-ID', {
+				timeZone: 'Asia/Jakarta',
+				year: 'numeric',
+				month: 'long',
+				day: 'numeric',
+				hour: '2-digit',
+				minute: '2-digit',
+				second: '2-digit'
+			});
+			
+			const result = await emailjs.send(
+				"service_vunb27c",
+				"template_2schs7s",
 				{
 					from_name: form.name,
-					to_name: "Om Patel",
+					to_name: "Mikail",
 					from_email: form.email,
-					to_email: "omunite21@gmail.com",
 					message: form.message,
+					timestamp: timestamp, // Tambahkan timestamp
 				},
-				"VeFeVdEHL9F9_i6xp",
-			)
-			.then(() => {
-				setLoading(false);
-				alert(
-					"A humble thanks for reaching me out. I will respond to you as soon as possible.",
-				);
-				setForm({
-					name: "",
-					email: "",
-					message: "",
-				});
-			})
-			.catch((error) => {
-				setLoading(false);
-				alert("Sorry!! Something went wrong!!");
+				"yYsYMOOZhNTPNOfnn"
+			);
+
+			console.log("Email sent successfully:", result);
+			setLoading(false);
+			alert(
+				"Thanks for reaching me out. I will respond to you as soon as possible.",
+			);
+			setForm({
+				name: "",
+				email: "",
+				message: "",
 			});
+		} catch (error) {
+			console.error("EmailJS Error:", error);
+			setLoading(false);
+			
+			if (error instanceof Error) {
+				alert(`Error: ${error.message}`);
+			} else { 
+				alert("Sorry!! Something went wrong!! Please try again later.");
+			}
+		}
 	};
 
 	return (
@@ -77,8 +106,9 @@ const Contact = () => {
 							name="name"
 							value={form.name}
 							onChange={handleChange}
-							placeholder="Whats's your name?"
+							placeholder="What's your name?"
 							className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+							required
 						/>
 					</label>
 					<label className="flex flex-col">
@@ -88,8 +118,9 @@ const Contact = () => {
 							name="email"
 							value={form.email}
 							onChange={handleChange}
-							placeholder="Whats's your email?"
+							placeholder="What's your email?"
 							className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+							required
 						/>
 					</label>
 					<label className="flex flex-col">
@@ -101,13 +132,15 @@ const Contact = () => {
 							onChange={handleChange}
 							placeholder="What do you want to say?"
 							className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+							required
 						/>
 					</label>
 					<button
 						type="submit"
-						className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+						disabled={loading}
+						className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl disabled:opacity-50"
 					>
-						{loading ? "Sending..." : "Sent"}
+						{loading ? "Sending..." : "Send"}
 					</button>
 				</form>
 			</motion.div>

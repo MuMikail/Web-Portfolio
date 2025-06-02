@@ -8,16 +8,41 @@ const Computers = ({ isMobile }: { isMobile: boolean }) => {
 	const computer = useGLTF("/desktop_pc/scene.gltf");
 	return (
 		<mesh>
-			<hemisphereLight intensity={0.15} groundColor="black" />
-			<pointLight intensity={1} />
+			{/* Ambient light untuk pencahayaan keseluruhan */}
+			<ambientLight intensity={0.3} />
+			
+			{/* Hemisphere light dengan intensitas lebih tinggi */}
+			<hemisphereLight intensity={0.35} groundColor="black" />
+			
+			{/* Point light dengan intensitas lebih tinggi */}
+			<pointLight intensity={2} position={[10, 10, 10]} />
+			
+			{/* Spot light utama dengan intensitas lebih tinggi */}
 			<spotLight
 				position={[-20, 50, 10]}
 				angle={0.12}
 				penumbra={1}
-				intensity={1}
+				intensity={2}
 				castShadow
 				shadow-mapSize={1024}
 			/>
+			
+			{/* Tambahan spot light dari sisi lain */}
+			<spotLight
+				position={[20, 20, 10]}
+				angle={0.15}
+				penumbra={0.8}
+				intensity={1.5}
+				color="#ffffff"
+			/>
+			
+			{/* Directional light untuk pencahayaan merata */}
+			<directionalLight
+				position={[0, 10, 5]}
+				intensity={0.8}
+				color="#ffffff"
+			/>
+			
 			<primitive
 				object={computer.scene}
 				scale={isMobile ? 0.7 : 0.75}

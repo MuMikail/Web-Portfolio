@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Tilt } from "react-tilt";
 import { services } from "../constants";
-import { fadeIn, textVariant } from "@/app/utils/motion";
+import { fadeIn, textVariant} from "@/app/utils/motion";
 
 type ServiceCardProps = {
 	index: number;
@@ -46,21 +46,15 @@ const About = () => {
 	return (
 		<>
 			<motion.div variants={textVariant()}>
-				<p className="sectionSubText">Introduction</p>
-				<h2 className="styles.sectionHeadText">Overview.</h2>
+				<p className="sectionSubText">Hello, I am</p>
+				<h2 className="styles.sectionHeadText">Muhammad Mikail Ali Kartadiyasa</h2>
 			</motion.div>
 
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
 			>
-				Dynamic Full-Stack Developer with a passion for crafting innovative web
-				applications. Proven expertise in React, Next.js, Node.js, and Python.
-				Skilled in UI/UX design and DevOps (Docker). Proven ability to deliver high-quality,
-				scalable solutions, as demonstrated by a strong portfolio of full-stack
-				Next.js projects and modern UI/UX designs. Eager to leverage my
-				technical prowess and problem-solving abilities to contribute to
-				cutting-edge projects and drive innovation.
+				I am a Software Engineering student with a strong interest in creating engaging, functional, and impactful digital experiences. With my knowledge in software development, I always strive to combine creativity, logic, and technology to produce solutions that not only meet user needs but also provide added value. In every project I work on, I am committed to providing the best results through a structured process, solid teamwork, and a high learning spirit in order to continue to grow and adapt to technological developments.
 			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (
