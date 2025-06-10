@@ -171,7 +171,7 @@ const testimonials = [
     id: 5,
     testimonial:
         "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-    name: "MuMikail", // Ganti dengan nama Anda
+    name: "MuMikail",
     image: "/tech/github.webp",
     link: "https://github.com/MuMikail", // Ganti dengan GitHub Anda
 },
@@ -221,7 +221,7 @@ const projects :{
 	{
 		name: "ShoePalace Web",
 		description:
-			"Designed and developed a visually appealing and user-friendly portfolio website using HTML, CSS, JavaScript.",
+			"Designed and developed a visually appealing and user-friendly ShoePalace website using HTML, CSS, JavaScript.",
 		tags: [
 			{
 				name: "HTML",
@@ -236,10 +236,33 @@ const projects :{
 				color: "yellow-text-gradient",
 			},
 		],
-		image: "/projectimg/SHOEPALACE WEB.jpeg",
+		image: "/projectimg/SHOEPALACE-WEB.jpeg",
 		source_code_link: "https://github.com/MuMikail/ShoePalace-Web",
 		platform: "Vercel",
 		deploy_link: "https://web-sepatu-steel.vercel.app/",
+	},
+	{
+		name: "Web Portfolio V1",
+		description:
+			"Designed and developed a visually appealing and user-friendly portfolio V1 website using HTML, CSS, JavaScript.",
+		tags: [
+			{
+				name: "HTML",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "CSS",
+				color: "purple-text-gradient",
+			},
+			{
+				name: "JavaScript",
+				color: "yellow-text-gradient",
+			},
+		],
+		image: "/projectimg/PortfoliomV1.png",
+		source_code_link: "https://github.com/MuMikail/WebPortfolioM-V1",
+		platform: "Vercel",
+		deploy_link: "https://web-portfolio-m-v1.vercel.app/",
 	},
 	// {
 	// 	name: "HooBank",
