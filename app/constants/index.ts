@@ -236,7 +236,7 @@ const projects :{
 				color: "yellow-text-gradient",
 			},
 		],
-		image: "/projectimg/SHOEPALACE-WEB.jpeg",
+		image: "/projectimg/Shoepalace.png",
 		source_code_link: "https://github.com/MuMikail/ShoePalace-Web",
 		platform: "Vercel",
 		deploy_link: "https://web-sepatu-steel.vercel.app/",
