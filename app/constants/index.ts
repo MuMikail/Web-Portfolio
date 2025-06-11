@@ -267,7 +267,7 @@ const projects :{
 	{
 		name: "Soundwave Web",
 		description:
-			"Designed and developed a visually appealing and user-friendly portfolio V1 website using HTML, CSS, JavaScript.",
+			"Designed and developed a visually appealing and user-friendly Soundwave website using Typescript, CSS, JavaScript.",
 		tags: [
 			{
 				name: "Typescript",
