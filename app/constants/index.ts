@@ -264,6 +264,29 @@ const projects :{
 		platform: "Vercel",
 		deploy_link: "https://web-portfolio-m-v1.vercel.app/",
 	},
+	{
+		name: "Soundwave Web",
+		description:
+			"Designed and developed a visually appealing and user-friendly portfolio V1 website using HTML, CSS, JavaScript.",
+		tags: [
+			{
+				name: "Typescript",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "CSS",
+				color: "purple-text-gradient",
+			},
+			{
+				name: "JavaScript",
+				color: "yellow-text-gradient",
+			},
+		],
+		image: "/projectimg/Soundwave.png",
+		source_code_link: "https://github.com/MuMikail/SoundWave-Web",
+		platform: "Vercel",
+		deploy_link: "https://sound-wave-web.vercel.app/",
+	},
 	// {
 	// 	name: "HooBank",
 	// 	description:
