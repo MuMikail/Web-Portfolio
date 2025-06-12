@@ -194,7 +194,7 @@ const projects :{
 	{
 		name: "FAMK Web",
 		description:
-			"Designed and developed a responsive and dynamic website with my team using HTML, CSS, PHP, and Laravel.",
+			"Designed and developed a responsive and dynamic website with my team using HTML, CSS, PHP, and JavaScript.",
 		tags: [
 			{
 				name: "HTML",
@@ -280,6 +280,10 @@ const projects :{
 			{
 				name: "JavaScript",
 				color: "yellow-text-gradient",
+			},
+			{
+				name: "Next.js",
+				color: "green-text-gradient",
 			},
 		],
 		image: "/projectimg/Soundwave.png",
