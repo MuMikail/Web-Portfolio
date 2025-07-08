@@ -291,102 +291,25 @@ const projects :{
 		platform: "Vercel",
 		deploy_link: "https://sound-wave-web.vercel.app/",
 	},
-	// {
-	// 	name: "HooBank",
-	// 	description:
-	// 		"A responsive Bank HomePage showcasing different features such as various payment gateways integration, easy money transfer, advanced security, etc. It has a beautiful interface made using Tailwind CSS and React",
-	// 	tags: [
-	// 		{
-	// 			name: "next",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "tailwind",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 	],
-	// 	image: "/projectimg/hoobank.webp",
-	// 	source_code_link: "https://github.com/omunite215/hoobank",
-	// 	platform: "Vercel",
-	// 	deploy_link: "https://hoobankbyom.netlify.app/",
-	// },
-	// {
-	// 	name: "MERN Dashboard",
-	// 	description:
-	// 		" Designed and developed a visually appealing and user-friendly Data Analytics Dashboard using MERN",
-	// 	tags: [
-	// 		{
-	// 			name: "react",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "materialui",
-	// 			color: "orange-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "MongoDB",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Express",
-	// 			color: "pink-text-gradient",
-	// 		},
-	// 	],
-	// 	image: "/projectimg/mern.png",
-	// 	source_code_link: "https://github.com/omunite215/Project_MERN-Dashboard",
-	// 	platform: "Web",
-	// 	deploy_link: "https://admin-frontend-r705.onrender.com/",
-	// },
-	// {
-	// 	name: "Metaverse Web 3.0",
-	// 	description:
-	// 		"A Modern UI/UX Landing Page using Framer Motion and TailwindCSS with a feel and looks of Web 3.0",
-	// 	tags: [
-	// 		{
-	// 			name: "react",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "tailwind",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "framer-motion",
-	// 			color: "orange-text-gradient",
-	// 		},
-	// 	],
-	// 	image: "/projectimg/metaverse.png",
-	// 	source_code_link: "https://github.com/omunite215/Project_Metaverse",
-	// 	platform: "Vercel",
-	// 	deploy_link: "https://project-metaverse-beta.vercel.app/",
-	// },
-	// {
-	// 	name: "Issue Tracker",
-	// 	description:
-	// 		"A Next.JS Full Stack Issue Tracker made using Next.Js, ShadCN UI, Prisma, mySQL with latest features like Next.JS Server Components, and Serverless features.",
-	// 	tags: [
-	// 		{
-	// 			name: "next",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "tailwind",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "shadCN",
-	// 			color: "orange-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "mySQL",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 	],
-	// 	image: "/projectimg/issuetracker.png",
-	// 	source_code_link: "https://github.com/omunite215/Project_Issue-Tracker",
-	// 	platform: "Vercel",
-	// 	deploy_link: "https://project-issue-tracker.vercel.app/",
-	// },
+	{
+		name: "Luxe Jewelry Web",
+		description:
+			"Designed and developed a visually appealing and user-friendly Soundwave website using JavaScript And Effect Parallax.",
+		tags: [
+			{
+				name: "Parallax",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "JavaScript",
+				color: "yellow-text-gradient",
+			},
+		],
+		image: "/projectimg/Luxe-Web.png",
+		source_code_link: "https://github.com/MuMikail/Luxu-Jewelry-Website-M",
+		platform: "Vercel",
+		deploy_link: "https://luxu-jewelry-website-m.vercel.app/",
+	},
 ];
 
 export { services, technologies, experiences, testimonials, projects };
