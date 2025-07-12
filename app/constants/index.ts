@@ -310,6 +310,33 @@ const projects :{
 		platform: "Vercel",
 		deploy_link: "https://luxu-jewelry-website-m.vercel.app/",
 	},
+		{
+		name: "Parfumerie Web",
+		description:
+			"Designed and developed a visually appealing and user-friendly Soundwave website using HTML, CSS, JavaScript.",
+		tags: [
+			{
+				name: "HTML",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "CSS",
+				color: "purple-text-gradient",
+			},
+			{
+				name: "JavaScript",
+				color: "yellow-text-gradient",
+			},
+			{
+				name: "NOT FINISHED",
+				color: "red-text-gradient",
+			},
+		],
+		image: "/projectimg/Parfumerie.jpeg",
+		source_code_link: "https://github.com/MuMikail/PARFUMERIE-WEBSITE",
+		platform: "Vercel",
+		deploy_link: "",
+	},
 ];
 
 export { services, technologies, experiences, testimonials, projects };
