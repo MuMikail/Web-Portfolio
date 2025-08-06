@@ -41,11 +41,11 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<Link href="https://github.com/omunite215">
+					<Link href="https://github.com/MuMikail">
 						<Image
-							src="/logo.png"
-							width={80}
-							height={80}
+							src="/LogoMikel.png"
+							width={25}
+							height={25}
 							alt="logo"
 							priority
 							className="object-contain"
