@@ -44,8 +44,8 @@ const Navbar = () => {
 					<Link href="https://github.com/MuMikail">
 						<Image
 							src="/LogoMikel.png"
-							width={25}
-							height={25}
+							width={40}
+							height={40}
 							alt="logo"
 							priority
 							className="object-contain"
