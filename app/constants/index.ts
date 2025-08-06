@@ -294,7 +294,7 @@ const projects :{
 	{
 		name: "Luxe Jewelry Web",
 		description:
-			"Designed and developed a visually appealing and user-friendly Soundwave website using JavaScript And Effect Parallax.",
+			"Designed and developed a visually appealing and user-friendly Luxe Jewelry website using JavaScript And Effect Parallax.",
 		tags: [
 			{
 				name: "Parallax",
@@ -313,7 +313,7 @@ const projects :{
 		{
 		name: "Parfumerie Web",
 		description:
-			"Designed and developed a visually appealing and user-friendly Soundwave website using HTML, CSS, JavaScript.",
+			"Designed and developed a visually appealing and user-friendly Parfumerie website using HTML, CSS, JavaScript.",
 		tags: [
 			{
 				name: "HTML",
