@@ -310,7 +310,7 @@ const projects :{
 		platform: "Vercel",
 		deploy_link: "https://luxu-jewelry-website-m.vercel.app/",
 	},
-		{
+	{
 		name: "Parfumerie Web",
 		description:
 			"Designed and developed a visually appealing and user-friendly Parfumerie website using HTML, CSS, JavaScript.",
@@ -336,6 +336,52 @@ const projects :{
 		source_code_link: "https://github.com/MuMikail/PARFUMERIE-WEBSITE",
 		platform: "Vercel",
 		deploy_link: "",
+	},
+	{
+		name: "BeasiswaM Web",
+		description:
+			"Designed and developed a visually appealing and user-friendly Parfumerie website using Blade, PHP.",
+		tags: [
+			{
+				name: "Blade",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "PHP",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Laravel",
+				color: "red-text-gradient",
+			},
+		],
+		image: "/projectimg/BeasiswaM.jpeg",
+		source_code_link: "https://github.com/MuMikail/BeasiswaM",
+		platform: "Web",
+		deploy_link: "https://github.com/MuMikail/BeasiswaM",
+	},
+	{
+		name: "HotelKu Web",
+		description:
+			"Designed and developed a visually appealing and user-friendly Parfumerie website using Blade, PHP.",
+		tags: [
+			{
+				name: "Blade",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "PHP",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Laravel",
+				color: "red-text-gradient",
+			},
+		],
+		image: "/projectimg/HotelKu.jpeg",
+		source_code_link: "https://github.com/MuMikail/WebHotel_M",
+		platform: "Web",
+		deploy_link: "https://github.com/MuMikail/WebHotel_M",
 	},
 ];
 
