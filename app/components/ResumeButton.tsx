@@ -5,7 +5,7 @@ import React from "react";
 const ResumeButton = () => {
 	return (
 		<Link
-			href="/resume/"
+			href="/resume/CVMikel.pdf"
 			target="_blank"
 			download
 		>
@@ -20,7 +20,7 @@ const ResumeButton = () => {
 					alt="resume"
 					className="object-contain animate-pulse"
 				/>
-				<span className="lg:block hidden text-white">Download Resume</span>
+				<span className="lg:block hidden text-white">Download CV</span>
 			</button>
 		</Link>
 	);
