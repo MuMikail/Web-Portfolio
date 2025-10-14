@@ -149,7 +149,7 @@ const testimonials = [
         "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
     name: "Mikail", // Ganti dengan nama Anda
     image: "/socialmedia/linkedin.svg",
-    link: "https://www.linkedin.com/in/yourusername/", // Ganti dengan LinkedIn Anda
+    link: "https://www.linkedin.com/in/muhammad-mikail-ali-kartadiyasa-53035b38a/", // Ganti dengan LinkedIn Anda
 },
 {
     id: 3,
