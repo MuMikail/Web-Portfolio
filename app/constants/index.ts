@@ -383,6 +383,29 @@ const projects :{
 		platform: "Web",
 		deploy_link: "https://github.com/MuMikail/WebHotel_M",
 	},
+	{
+		name: "Library Web",
+		description:
+			"Designed and developed a visually appealing and user-friendly Library Management website using Blade, PHP.",
+		tags: [
+			{
+				name: "Blade",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "PHP",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Laravel",
+				color: "red-text-gradient",
+			},
+		],
+		image: "/projectimg/Library.jpeg",
+		source_code_link: "https://github.com/MuMikail/Library_ManagementM",
+		platform: "Web",
+		deploy_link: "https://github.com/MuMikail/Library_ManagementM",
+	},
 ];
 
 export { services, technologies, experiences, testimonials, projects };
