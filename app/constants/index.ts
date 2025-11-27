@@ -1,411 +1,435 @@
 export const navLinks = [
-	{
-		id: "about",
-		title: "About",
-	},
-	{
-		id: "work",
-		title: "Work",
-	},
-	{
-		id: "social",
-		title: "Social",
-	},
-	{
-		id: "contact",
-		title: "Contact",
-	},
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "social",
+    title: "Social",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
 ];
 
 const services = [
-	{
-		title: "UI/UX Designer",
-		icon: "/backend.webp",
-	},
-	{
-		title: "Full Stack Web Developer",
-		icon: "/web.webp",
-	},
-	{
-		title: "App Developer",
-		icon: "/mobile.webp",
-	},
-	{
-		title: "Software Engineer",
-		icon: "/creator.webp",
-	},
+  {
+    title: "UI/UX Designer",
+    icon: "/backend.webp",
+  },
+  {
+    title: "Full Stack Web Developer",
+    icon: "/web.webp",
+  },
+  {
+    title: "App Developer",
+    icon: "/mobile.webp",
+  },
+  {
+    title: "Software Engineer",
+    icon: "/creator.webp",
+  },
 ];
 
 const technologies = [
-	{
-		name: "HTML 5",
-		icon: "/tech/html.webp",
-	},
-	{
-		name: "CSS 3",
-		icon: "/tech/css.webp",
-	},
-	{
-		name: "JavaScript",
-		icon: "/tech/javascript.webp",
-	},
-	{
-		name: "TypeScript",
-		icon: "/tech/typescript.webp",
-	},
-	{
-		name: "React JS",
-		icon: "/tech/reactjs.webp",
-	},
-	{
-		name: "Next.JS",
-		icon: "/tech/nextjs.svg",
-	},
-	{
-		name: "Redux Toolkit",
-		icon: "/tech/redux.webp",
-	},
-	{
-		name: "Tailwind CSS",
-		icon: "/tech/tailwind.webp",
-	},
-	{
-		name: "Three JS",
-		icon: "/tech/threejs.webp",
-	},
-	{
-		name: "git",
-		icon: "/tech/git.webp",
-	},
-	{
-		name: "figma",
-		icon: "/tech/figma.webp",
-	},
-	{
-		name: "wordpress",
-		icon: "/tech/wordpress.webp",
-	},
-	{
-		name: "bootstrap",
-		icon: "/tech/bootstrap.webp",
-	},
+  {
+    name: "HTML 5",
+    icon: "/tech/html.webp",
+  },
+  {
+    name: "CSS 3",
+    icon: "/tech/css.webp",
+  },
+  {
+    name: "JavaScript",
+    icon: "/tech/javascript.webp",
+  },
+  {
+    name: "TypeScript",
+    icon: "/tech/typescript.webp",
+  },
+  {
+    name: "React JS",
+    icon: "/tech/reactjs.webp",
+  },
+  {
+    name: "Next.JS",
+    icon: "/tech/nextjs.svg",
+  },
+  {
+    name: "Redux Toolkit",
+    icon: "/tech/redux.webp",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "/tech/tailwind.webp",
+  },
+  {
+    name: "Three JS",
+    icon: "/tech/threejs.webp",
+  },
+  {
+    name: "git",
+    icon: "/tech/git.webp",
+  },
+  {
+    name: "figma",
+    icon: "/tech/figma.webp",
+  },
+  {
+    name: "wordpress",
+    icon: "/tech/wordpress.webp",
+  },
+  {
+    name: "bootstrap",
+    icon: "/tech/bootstrap.webp",
+  },
 ];
 
 const experiences = [
-	// {
-	// 	title: "Wordpress Developer & UI/UX Designer",
-	// 	company_name: "A.V.M Auto",
-	// 	icon: "/company/avm.webp",
-	// 	iconBg: "#383E56",
-	// 	date: "2020 -  2023",
-	// 	points: [
-	// 		"Self-Taught Expertise: Gained proficiency in WordPress and UI/UX design through independent learning.",
-	// 		"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity.",
-	// 		"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
-	// 		"Positive Business Impact: Contributed to +54.25% sales and overall business growth through the improved website."
-	// 	],
-	// },
-	// {
-	// 	title: "Next.JS Developer",
-	// 	company_name: "Sparkbright Engineering",
-	// 	icon: "/company/sparkbright.webp",
-	// 	iconBg: "#E6DEDD",
-	// 	date: "2023 - 2024",
-	// 	points: [
-	// 		"Self-Taught Expertise: Gained proficiency in React.JS and Next.JS through independent learning.",
-	// 		"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
-	// 		"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity."
-	// 	],
-	// },
-{
+  // {
+  // 	title: "Wordpress Developer & UI/UX Designer",
+  // 	company_name: "A.V.M Auto",
+  // 	icon: "/company/avm.webp",
+  // 	iconBg: "#383E56",
+  // 	date: "2020 -  2023",
+  // 	points: [
+  // 		"Self-Taught Expertise: Gained proficiency in WordPress and UI/UX design through independent learning.",
+  // 		"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity.",
+  // 		"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
+  // 		"Positive Business Impact: Contributed to +54.25% sales and overall business growth through the improved website."
+  // 	],
+  // },
+  // {
+  // 	title: "Next.JS Developer",
+  // 	company_name: "Sparkbright Engineering",
+  // 	icon: "/company/sparkbright.webp",
+  // 	iconBg: "#E6DEDD",
+  // 	date: "2023 - 2024",
+  // 	points: [
+  // 		"Self-Taught Expertise: Gained proficiency in React.JS and Next.JS through independent learning.",
+  // 		"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
+  // 		"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity."
+  // 	],
+  // },
+  {
     title: "Software Engineering Student",
     company_name: "SMK PESAT ITXPRO BOGOR",
     icon: "/company/logo-smk-pesat.png", // Ganti dengan logo sekolah Anda
     iconBg: "#E6DEDD",
     date: "2023 - Present", // Sesuaikan dengan tahun masuk dan lulus Anda
     points: [
-        "Mastering web development from frontend to backend, building full-stack applications.",
-        "Learning UI/UX design principles and creating user-centered design solutions.",
-        "Developing mobile applications using modern frameworks and best practices.",
-        "Building dynamic websites and content management systems using WordPress.",
-        "Gaining expertise in both frontend technologies (React, JavaScript) and backend development (Node.js, databases).",
+      "Mastering web development from frontend to backend, building full-stack applications.",
+      "Learning UI/UX design principles and creating user-centered design solutions.",
+      "Developing mobile applications using modern frameworks and best practices.",
+      "Building dynamic websites and content management systems using WordPress.",
+      "Gaining expertise in both frontend technologies (React, JavaScript) and backend development (Node.js, databases).",
     ],
-}
-
+  },
 ];
 
 const testimonials = [
-{
+  {
     id: 1,
     testimonial:
-        "TikTok is a popular social media platform where I create and share gaming content, showcasing gameplay highlights.",
+      "TikTok is a popular social media platform where I create and share gaming content, showcasing gameplay highlights.",
     name: "minnzyaj", // Ganti dengan nama Anda
     image: "/socialmedia/tik-tok.svg",
     link: "https://www.tiktok.com/@minnzyaj", // Ganti dengan username TikTok Anda
-},
-{
+  },
+  {
     id: 2,
     testimonial:
-        "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
+      "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
     name: "Mikail", // Ganti dengan nama Anda
     image: "/socialmedia/linkedin.svg",
     link: "https://www.linkedin.com/in/muhammad-mikail-ali-kartadiyasa-53035b38a/", // Ganti dengan LinkedIn Anda
-},
-{
+  },
+  {
     id: 3,
     testimonial:
-        "Instagram is a photo and video sharing social media platform where I plan to share my creative projects and daily activities.",
+      "Instagram is a photo and video sharing social media platform where I plan to share my creative projects and daily activities.",
     name: "qimik26", // Ganti dengan nama Anda
     image: "/socialmedia/ig.svg",
     link: "https://www.instagram.com/qimik26/", // Ganti dengan Instagram Anda
-},
-// {
-//     id: 4,
-//     testimonial:
-//         "YouTube is a video sharing platform where I will be uploading programming tutorials, project walkthroughs, and tech-related content.",
-//     name: "Your Name", // Ganti dengan nama Anda
-//     image: "/socialmedia/youtube.svg",
-//     link: "https://www.youtube.com/@yourusername", // Ganti dengan YouTube Anda
-// },
-{
+  },
+  // {
+  //     id: 4,
+  //     testimonial:
+  //         "YouTube is a video sharing platform where I will be uploading programming tutorials, project walkthroughs, and tech-related content.",
+  //     name: "Your Name", // Ganti dengan nama Anda
+  //     image: "/socialmedia/youtube.svg",
+  //     link: "https://www.youtube.com/@yourusername", // Ganti dengan YouTube Anda
+  // },
+  {
     id: 5,
     testimonial:
-        "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
+      "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
     name: "MuMikail",
     image: "/tech/github.webp",
     link: "https://github.com/MuMikail", // Ganti dengan GitHub Anda
-},
-
+  },
 ];
 
-
-const projects :{
-	name: string;
-	description: string;
-	tags: {
-		name: string;
-		color: string;
-	}[];
-	image: string;
-	source_code_link?: string;
-	deploy_link: string;
-	platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web"
+const projects: {
+  name: string;
+  description: string;
+  tags: {
+    name: string;
+    color: string;
+  }[];
+  image: string;
+  source_code_link?: string;
+  deploy_link: string;
+  platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web";
 }[] = [
-	{
-		name: "FAMK Web",
-		description:
-			"Designed and developed a responsive and dynamic website with my team using HTML, CSS, PHP, and JavaScript.",
-		tags: [
-			{
-				name: "HTML",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "CSS",
-				color: "purple-text-gradient",
-			},
-			{
-				name: "JavaScript",
-				color: "yellow-text-gradient",
-			},
-			{
-				name: "PHP",
-				color: "blue-text-gradient",
-			},
-		],
-		image: "/projectimg/famk.webp",
-		platform: "Vercel",
-		source_code_link: "https://github.com/MuMikail/FAMKWEB",
-		deploy_link: "https://famk-web.vercel.app/",
-	},
-	{
-		name: "ShoePalace Web",
-		description:
-			"Designed and developed a visually appealing and user-friendly ShoePalace website using HTML, CSS, JavaScript.",
-		tags: [
-			{
-				name: "HTML",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "CSS",
-				color: "purple-text-gradient",
-			},
-			{
-				name: "JavaScript",
-				color: "yellow-text-gradient",
-			},
-		],
-		image: "/projectimg/Shoepalace.png",
-		source_code_link: "https://github.com/MuMikail/ShoePalace-Web",
-		platform: "Vercel",
-		deploy_link: "https://web-sepatu-steel.vercel.app/",
-	},
-	{
-		name: "Web Portfolio V1",
-		description:
-			"Designed and developed a visually appealing and user-friendly portfolio V1 website using HTML, CSS, JavaScript.",
-		tags: [
-			{
-				name: "HTML",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "CSS",
-				color: "purple-text-gradient",
-			},
-			{
-				name: "JavaScript",
-				color: "yellow-text-gradient",
-			},
-		],
-		image: "/projectimg/PortfoliomV1.png",
-		source_code_link: "https://github.com/MuMikail/WebPortfolioM-V1",
-		platform: "Vercel",
-		deploy_link: "https://web-portfolio-m-v1.vercel.app/",
-	},
-	{
-		name: "Soundwave Web",
-		description:
-			"Designed and developed a visually appealing and user-friendly Soundwave website using Typescript, CSS, JavaScript.",
-		tags: [
-			{
-				name: "Typescript",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "CSS",
-				color: "purple-text-gradient",
-			},
-			{
-				name: "JavaScript",
-				color: "yellow-text-gradient",
-			},
-			{
-				name: "Next.js",
-				color: "green-text-gradient",
-			},
-		],
-		image: "/projectimg/Soundwave.png",
-		source_code_link: "https://github.com/MuMikail/SoundWave-Web",
-		platform: "Vercel",
-		deploy_link: "https://sound-wave-web.vercel.app/",
-	},
-	{
-		name: "Luxe Jewelry Web",
-		description:
-			"Designed and developed a visually appealing and user-friendly Luxe Jewelry website using JavaScript And Effect Parallax.",
-		tags: [
-			{
-				name: "Parallax",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "JavaScript",
-				color: "yellow-text-gradient",
-			},
-		],
-		image: "/projectimg/Luxe-Web.png",
-		source_code_link: "https://github.com/MuMikail/Luxu-Jewelry-Website-M",
-		platform: "Vercel",
-		deploy_link: "https://luxu-jewelry-website-m.vercel.app/",
-	},
-	{
-		name: "Parfumerie Web",
-		description:
-			"Designed and developed a visually appealing and user-friendly Parfumerie website using HTML, CSS, JavaScript.",
-		tags: [
-			{
-				name: "HTML",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "CSS",
-				color: "purple-text-gradient",
-			},
-			{
-				name: "JavaScript",
-				color: "yellow-text-gradient",
-			},
-			{
-				name: "NOT FINISHED",
-				color: "red-text-gradient",
-			},
-		],
-		image: "/projectimg/Parfumerie.jpeg",
-		source_code_link: "https://github.com/MuMikail/PARFUMERIE-WEBSITE",
-		platform: "Vercel",
-		deploy_link: "",
-	},
-	{
-		name: "BeasiswaM Web",
-		description:
-			"Designed and developed a visually appealing and user-friendly Parfumerie website using Blade, PHP.",
-		tags: [
-			{
-				name: "Blade",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "PHP",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "Laravel",
-				color: "red-text-gradient",
-			},
-		],
-		image: "/projectimg/BeasiswaM.jpeg",
-		source_code_link: "https://github.com/MuMikail/BeasiswaM",
-		platform: "Web",
-		deploy_link: "https://github.com/MuMikail/BeasiswaM",
-	},
-	{
-		name: "HotelKu Web",
-		description:
-			"Designed and developed a visually appealing and user-friendly Parfumerie website using Blade, PHP.",
-		tags: [
-			{
-				name: "Blade",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "PHP",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "Laravel",
-				color: "red-text-gradient",
-			},
-		],
-		image: "/projectimg/HotelKu.jpeg",
-		source_code_link: "https://github.com/MuMikail/WebHotel_M",
-		platform: "Web",
-		deploy_link: "https://github.com/MuMikail/WebHotel_M",
-	},
-	{
-		name: "Library Web",
-		description:
-			"Designed and developed a visually appealing and user-friendly Library Management website using Blade, PHP.",
-		tags: [
-			{
-				name: "Blade",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "PHP",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "Laravel",
-				color: "red-text-gradient",
-			},
-		],
-		image: "/projectimg/Library.jpeg",
-		source_code_link: "https://github.com/MuMikail/Library_ManagementM",
-		platform: "Web",
-		deploy_link: "https://github.com/MuMikail/Library_ManagementM",
-	},
+  {
+    name: "FAMK Web",
+    description:
+      "Designed and developed a responsive and dynamic website with my team using HTML, CSS, PHP, and JavaScript.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/projectimg/famk.webp",
+    platform: "Vercel",
+    source_code_link: "https://github.com/MuMikail/FAMKWEB",
+    deploy_link: "https://famk-web.vercel.app/",
+  },
+  {
+    name: "ShoePalace Web",
+    description:
+      "Designed and developed a visually appealing and user-friendly ShoePalace website using HTML, CSS, JavaScript.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/projectimg/Shoepalace.png",
+    source_code_link: "https://github.com/MuMikail/ShoePalace-Web",
+    platform: "Vercel",
+    deploy_link: "https://web-sepatu-steel.vercel.app/",
+  },
+  {
+    name: "Web Portfolio V1",
+    description:
+      "Designed and developed a visually appealing and user-friendly portfolio V1 website using HTML, CSS, JavaScript.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/projectimg/PortfoliomV1.png",
+    source_code_link: "https://github.com/MuMikail/WebPortfolioM-V1",
+    platform: "Vercel",
+    deploy_link: "https://web-portfolio-m-v1.vercel.app/",
+  },
+  {
+    name: "Soundwave Web",
+    description:
+      "Designed and developed a visually appealing and user-friendly Soundwave website using Typescript, CSS, JavaScript.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "/projectimg/Soundwave.png",
+    source_code_link: "https://github.com/MuMikail/SoundWave-Web",
+    platform: "Vercel",
+    deploy_link: "https://sound-wave-web.vercel.app/",
+  },
+  {
+    name: "Luxe Jewelry Web",
+    description:
+      "Designed and developed a visually appealing and user-friendly Luxe Jewelry website using JavaScript And Effect Parallax.",
+    tags: [
+      {
+        name: "Parallax",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/projectimg/Luxe-Web.png",
+    source_code_link: "https://github.com/MuMikail/Luxu-Jewelry-Website-M",
+    platform: "Vercel",
+    deploy_link: "https://luxu-jewelry-website-m.vercel.app/",
+  },
+  {
+    name: "Parfumerie Web",
+    description:
+      "Designed and developed a visually appealing and user-friendly Parfumerie website using HTML, CSS, JavaScript.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "NOT FINISHED",
+        color: "red-text-gradient",
+      },
+    ],
+    image: "/projectimg/Parfumerie.jpeg",
+    source_code_link: "https://github.com/MuMikail/PARFUMERIE-WEBSITE",
+    platform: "Vercel",
+    deploy_link: "",
+  },
+  {
+    name: "BeasiswaM Web",
+    description:
+      "Designed and developed a visually appealing and user-friendly Parfumerie website using Blade, PHP.",
+    tags: [
+      {
+        name: "Blade",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+    ],
+    image: "/projectimg/BeasiswaM.jpeg",
+    source_code_link: "https://github.com/MuMikail/BeasiswaM",
+    platform: "Web",
+    deploy_link: "https://github.com/MuMikail/BeasiswaM",
+  },
+  {
+    name: "HotelKu Web",
+    description:
+      "Designed and developed a visually appealing and user-friendly Parfumerie website using Blade, PHP.",
+    tags: [
+      {
+        name: "Blade",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+    ],
+    image: "/projectimg/HotelKu.jpeg",
+    source_code_link: "https://github.com/MuMikail/WebHotel_M",
+    platform: "Web",
+    deploy_link: "https://github.com/MuMikail/WebHotel_M",
+  },
+  {
+    name: "Library Web",
+    description:
+      "Designed and developed a visually appealing and user-friendly Library Management website using Blade, PHP.",
+    tags: [
+      {
+        name: "Blade",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+    ],
+    image: "/projectimg/Library.jpeg",
+    source_code_link: "https://github.com/MuMikail/Library_ManagementM",
+    platform: "Web",
+    deploy_link: "https://github.com/MuMikail/Library_ManagementM",
+  },
+  {
+    name: "MoodTracker App",
+    description:
+      "Designed and developed a visually appealing and user-friendly MoodTracker Application using Typescript, PHP.",
+    tags: [
+      {
+        name: "Expo",
+        color: "black-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/projectimg/Moodtracker.png",
+    source_code_link: "https://github.com/MuMikail/Library_ManagementM",
+    platform: "Web",
+    deploy_link: "https://github.com/MuMikail/Library_ManagementM",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
